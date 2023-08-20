@@ -11,27 +11,27 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Distinctive brand identities that resonate and captivate your audience.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Innovative visuals that merge aesthetics with user-centric functionality.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Seamless code to bring your digital dreams to vibrant life.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Persuasive words that narrate your story with irresistible allure',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Elevate visibility; ascend search ranks through strategic optimization mastery.',
   },
 ];
 
@@ -52,7 +52,7 @@ const ServiceSlider = () => {
       clickable: true
     }}
     modules={[FreeMode, Pagination]}
-    className=' h-[240px] sm:h-[340px]'
+    className=' h-[200px] sm:h-[320px]'
   >
 
     {serviceData.map((item, index) => {

@@ -1,7 +1,7 @@
 
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation ,Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -14,23 +14,23 @@ const testimonialData = [
   {
     image: '/images/t-avt-1.png',
     name: 'Anne Smith',
-    position: 'Customer',
+    position: 'Marketing Manager',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'SEO sorcery at its finest. Our online presence flourished, thanks to their strategic optimization techniques.'
   },
   {
     image: '/images/t-avt-2.png',
     name: 'Jane Doe',
-    position: 'Customer',
+    position: 'Director',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'From concept to reality, their development turned our ideas into a seamless digital experience.'
   },
   {
     image: '/images/t-avt-3.png',
     name: 'Jhon Doe',
-    position: 'Customer',
+    position: 'Founder',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Wordsmiths extraordinaire! Their copywriting transformed our message into compelling narratives that resonate.'
   },
 ];
 
@@ -41,8 +41,8 @@ const TestimonialSlider = () => {
     pagination={{
       clickable: true
     }}
-    modules={[Navigation,Pagination]}
-    className='h-[400px]'
+    modules={[Navigation, Pagination]}
+    className='h-[450px]'
   >
     {testimonialData.map((person, index) => {
       return (
@@ -59,7 +59,7 @@ const TestimonialSlider = () => {
             </div>
             <div className=' bg-pink-500/10 flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h0[200px] relative xl:pl-20'>
               <div className='mb-4'>
-              <FaQuoteLeft className=' text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0'/>
+                <FaQuoteLeft className=' text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0' />
               </div>
               <div className='xl:text-lg text-center md:text-left'>
                 {person.message}

@@ -117,7 +117,7 @@ const Page = () => {
           initial='hidden'
           animate='show'
           exit={'hidden'}
-          className=' hidden md:flex md:max-w-xl xl:max-w-none xl:mx-0 mb-8'>
+          className=' flex md:flex md:max-w-full xl:max-w-none xl:mx-0 mb-12'>
           <div className=' flex flex-1 xl:gap-x-6'>
             <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
               <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
@@ -143,6 +143,14 @@ const Page = () => {
                 Finished Projects
               </div>
             </div>
+            <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
+              <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
+                <CountUp start={" "} end={""} duration={5} />
+              </div>
+              <div className=" text-xs uppercase tracking-[1px] leading-[1.2] max-w-[100px]">
+                {/* Finished Projects */}
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>
@@ -151,7 +159,7 @@ const Page = () => {
             initial='hidden'
             animate='show'
             exit={'hidden'}
-             className='flex flex-col w-full xl:max-w-[48%] h-[480px]'>
+             className='flex flex-col w-full xl:max-w-[48%] max-h-[480px] xl:h-[480px]'>
         <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
           {aboutData.map((item, itemIndex) => (
             <div key={itemIndex}
