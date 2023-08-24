@@ -54,3 +54,12 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+
+
+
+.scrolled {
+  backdrop-filter: blur(10px);
+  background-color: rgb(255 255 255 / 0.1);
+  /* background-color: rgba(255, 255, 255, 0.95);  */
+  /* transition: backdrop-filter 0.3s ease, background-color 0.3s ease; */
+}

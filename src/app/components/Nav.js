@@ -1,7 +1,8 @@
 "use client"
 // icons
 "use cient"
-import { HiHome, HiUser, HiRectangleGroup, HiViewColumns, HiChatBubbleBottomCenterText, HiEnvelope, HIblo } from 'react-icons/hi2';
+import { HiHome, HiUser, HiRectangleGroup, HiViewColumns, HiChatBubbleBottomCenterText, HiEnvelope, } from 'react-icons/hi2';
+import { FaBloggerB } from 'react-icons/fa';
 
 //  link
 const navData = [
@@ -9,16 +10,9 @@ const navData = [
   { name: 'about', path: '/about', icon: <HiUser /> },
   { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
   { name: 'work', path: '/work', icon: <HiViewColumns /> },
-  {
-    icon: <HiChatBubbleBottomCenterText />,
-    nam: 'testimonials',
-    path: '/testimonials',
-  },
-  {
-    icon: <HiEnvelope />,
-    nam: 'contact',
-    path: '/contact',
-  },
+  { name: 'blog', path: '/blogs', icon: <FaBloggerB /> },
+  { name: 'testimonials', path: '/testimonials', icon: <HiChatBubbleBottomCenterText />},
+  { name: 'contact', path: '/contact', icon: <HiEnvelope />},
 ];
 
 import Link from "next/link";
