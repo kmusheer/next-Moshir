@@ -1,4 +1,4 @@
- import Header from './components/Header'
+import Header from './components/Header'
 import Nav from './components/Nav'
 import TopLeftImg from './components/TopLeftImg'
 import './globals.css'
