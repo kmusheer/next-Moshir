@@ -40,14 +40,6 @@ export const blogs = [
     "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
   },
   {
-    "id": 6,
-    "title": "Accessibility Matters: Designing Inclusive Web Experiences for All Users",
-    "author": "Your Name",
-    "writer": "Your Name",
-    "content": "Embark on a journey towards creating web experiences that are accessible and inclusive to users of all abilities. Dive into the importance of web accessibility and its impact on users with disabilities. Explore the Web Content Accessibility Guidelines (WCAG) and learn how to apply accessibility principles to design and development. Showcase practical techniques for creating accessible navigation, forms, images, and multimedia content. Share insights on assistive technologies and provide resources for testing and improving accessibility in your projects.",
-    "image": "https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595835.jpg?w=996&t=st=1692874978~exp=1692875578~hmac=34b023f6769037ae2c737acf6fa9fffe6ea21bfb93ad1fa1297d6514c22b29d1"
-  },
-  {
     "id": 7,
     "title": "Exploring Modern Frontend Frameworks: React, Angular, Vue.js, and Next.js",
     "author": "Your Name",

@@ -33,10 +33,10 @@ const BlogCards = ({ data }) => {
                                         </h2>
                                     </Link>
                                     <div className=' flex-row flex-shrink sm:flex'>
-                                        <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat mb-2 sm:mx-3">
+                                        <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat mb-2 sm:mx-3">
                                         {item.image && (
                                             <Image src={item.image} width={300} height={200}
-                                                class="transition duration-300 ease-in-out hover:scale-110 rounded-md hover:rounded-lg flex-1 max-w-full h-[200px]"
+                                                className="transition duration-300 ease-in-out hover:scale-110 rounded-md hover:rounded-lg flex-1 max-w-full h-[200px]"
                                                 alt="Louvre" />
                                                 )}
                                         </div>

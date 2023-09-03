@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import BlogCard from '@/app/components/BlogCard';
-import { getBlogs } from '@/utils/fetchBlog';
+import { getBlog, getBlogs } from '@/utils/fetchBlog';
 
 
 const Page = async ({ params }) => {
@@ -22,9 +22,18 @@ const Page = async ({ params }) => {
 
 export default Page;
 
-export const getBlog = async (id) => {
-  const URL = `http://localhost:3000/api/blogs/${id}`;
-  let data = await fetch(URL);
-  data = await data.json();
-  return data.result;
-};
+// export const getBlog = async (id) => {
+//   const BLOG_API_URL = process.env.BLOG_API_URL;
+//   const URL = `${BLOG_API_URL}/${id}`;
+//   try {
+//     let data = await fetch(URL);
+//     if (!data.ok) {
+//       throw new Error(`Fetch failed with status: ${data.status}`);
+//     }
+//     data = await data.json();
+//     return data.result;
+//   } catch (error) {
+//     console.error("Error fetching data:", error);
+//     throw error;
+//   }
+// };
